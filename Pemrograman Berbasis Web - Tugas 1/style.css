@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", serif;
+}
+
+.category{
+    text-align: center;
+    color: dimgray;
+    font-size: 13px;
+    margin-top: 50px;
+    margin-bottom: -20px;
+}
+
+.by{
+    text-align: center;
+    color: dimgray;
+    font-size: 13px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: midnightblue;
+    line-height: 120%;
+}
+
+h3{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.p1{
+    font-size: 15px;
+    font-weight: 300;
+    color: darkslategray;
+    text-align: left;
+    margin-top: 5px;
+}
+
+strong{
+    font-size: 30px;
+    color: black;
+    margin-right: -7%;
+}
+
+.p1::first-letter{
+    float: left;
+}
+
+
+*{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.daftar ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.daftar li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: baseline;
+    gap: 0px;
+}
+
+.daftar li span.number {
+    color: #060433;
+    font-weight: 400;
+    width: 18px;
+    text-align: right;
+    margin-right: -30px;
+    margin-left: 15px;
+    min-width: 15px;
+    font-size: 15px;
+}    
+
+.daftar a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.daftar a:hover {
+    text-decoration: underline;
+}
